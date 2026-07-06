@@ -3,9 +3,9 @@ set -eu
 
 APP_NAME='Markdown Editor'
 APP_BUNDLE='Markdown Editor.app'
-VERSION='0.3.9'
-DMG_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.3.9/Markdown.Editor_0.3.9_aarch64.dmg'
-DMG_SHA256='9f0762d4771bfcd564afee5c286012e082766abf157cadbcf189afb525753b8b'
+VERSION='0.3.10'
+DMG_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.3.10/Markdown.Editor_0.3.10_aarch64.dmg'
+DMG_SHA256='c71125c0a047ec0455ceae1fcca73bb27ba134351f9610a76fca943e2b1712bb'
 INSTALL_DIR="${MD_EDITOR_INSTALL_DIR:-/Applications}"
 KEEP_DMG="${MD_EDITOR_KEEP_DMG:-0}"
 
