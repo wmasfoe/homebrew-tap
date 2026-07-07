@@ -1,8 +1,8 @@
 cask "md-editor" do
-  version "0.3.10"
-  sha256 "c71125c0a047ec0455ceae1fcca73bb27ba134351f9610a76fca943e2b1712bb"
+  version "0.3.11"
+  sha256 "926cb2e4e3e5d1dbdbbe20195d608b4b0389c7fa75d103a8b274bd4a714734d4"
 
-  url "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.3.10/Markdown.Editor_0.3.10_aarch64.dmg"
+  url "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.3.11/Markdown.Editor_0.3.11_aarch64.dmg"
   name "Markdown Editor"
   desc "Markdown and MDX-compatible desktop editor"
   homepage "https://github.com/wmasfoe/md-editor"
