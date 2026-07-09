@@ -1,10 +1,10 @@
 {
-  "version": "0.3.15",
-  "notes": "Markdown Editor 0.3.15",
+  "version": "0.3.16",
+  "notes": "Markdown Editor 0.3.16",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGlCdXp3RlVaT1VnSnFncVRkNWp0WnE4UEN4dFlYeVI3M1d0UDZJOXM0Zks4dGNITHYraGdvQTQxLzJlWERIMEpQSjlyYnZPOHo4dk5QdHRSYXNNQUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNTc5NzAwCWZpbGU6TWFya2Rvd24gRWRpdG9yLmFwcC50YXIuZ3oKM294UGxXeUxPL1ZjVURwZllwTE5leWVuYm9lT0ZYUFRLRUlpSk5KQXVkSlBUUnZTQjBrUGRzQ2Z6NStTSiszdGV4UjdlY0dFQlBicmpvNktONi9xRHc9PQo=",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.3.15/Markdown.Editor.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHVFM3lsWkdROU9VaTVwQkZkeEMzYWg1dEduVXQyWnprWlJNWGV0NUNIYlB4eHd3QTY0TDd3YVdQRFUzVmJOL2pBRW12anN4cHZuV1hnc1N3SWROdmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNjE5Njg5CWZpbGU6TWFya2Rvd24gRWRpdG9yLmFwcC50YXIuZ3oKRmZhNGJsOHRYSGtlZTB6YTVnU1puTjBMeDB4VktRWldDVHVmOCszWWF4b2hKN2M1b3Z4YUxaOGtMalc1YjlIaUpLNjhud2p2WTlsOTd4T1h1dlhkRFE9PQo=",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.3.16/Markdown.Editor.app.tar.gz"
     }
   }
 }
