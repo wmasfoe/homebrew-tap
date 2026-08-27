@@ -8,13 +8,13 @@ APPIMAGE_FILE='Markdown_Editor.AppImage'
 VERSION='0.4.2'
 
 DMG_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.2/Markdown.Editor_0.4.2_aarch64.dmg'
-DMG_SHA256='d231484be893a719349a47a555b48e9df3aa4826362b4bdb5718451c8c37803c'
+DMG_SHA256='44f68e6a8d3984304f583139b0ce2e42d8d40b6aba80eb3149da2e5700fbaeaf'
 
-LINUX_X64_URL=''
+LINUX_X64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.2/Markdown.Editor_0.4.2_amd64.AppImage'
 LINUX_X64_SHA256=''
 
-LINUX_ARM64_URL=''
-LINUX_ARM64_SHA256=''
+LINUX_ARM64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.2/Markdown.Editor_0.4.2_aarch64.AppImage'
+LINUX_ARM64_SHA256='3d5b1072dbd1649d7d3af4aa8cb527e5531fc71e8646840282299ade10625d95'
 
 log() {
   printf '%s\n' "$*"
