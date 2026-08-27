@@ -2,9 +2,9 @@
 $ErrorActionPreference = 'Stop'
 
 $AppName = 'Markdown Editor'
-$Version = '0.4.2'
+$Version = '0.4.3'
 
-$WinX64Url = 'https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.2/Markdown.Editor_0.4.2_x64-setup.exe'
+$WinX64Url = 'https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.3/Markdown.Editor_0.4.3_x64-setup.exe'
 $WinX64Sha256 = ''
 
 $WinArm64Url = ''

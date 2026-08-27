@@ -5,16 +5,16 @@ APP_NAME='Markdown Editor'
 APP_BUNDLE='Markdown Editor.app'
 APP_BIN_NAME='md-editor'
 APPIMAGE_FILE='Markdown_Editor.AppImage'
-VERSION='0.4.2'
+VERSION='0.4.3'
 
-DMG_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.2/Markdown.Editor_0.4.2_aarch64.dmg'
-DMG_SHA256='44f68e6a8d3984304f583139b0ce2e42d8d40b6aba80eb3149da2e5700fbaeaf'
+DMG_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.3/Markdown.Editor_0.4.3_aarch64.dmg'
+DMG_SHA256='6c347515bb9e79fbec7ec1b8862a7a1ffbf21f40cdfbf11ab19484606840dbd7'
 
-LINUX_X64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.2/Markdown.Editor_0.4.2_amd64.AppImage'
+LINUX_X64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.3/Markdown.Editor_0.4.3_amd64.AppImage'
 LINUX_X64_SHA256=''
 
-LINUX_ARM64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.2/Markdown.Editor_0.4.2_aarch64.AppImage'
-LINUX_ARM64_SHA256='3d5b1072dbd1649d7d3af4aa8cb527e5531fc71e8646840282299ade10625d95'
+LINUX_ARM64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.3/Markdown.Editor_0.4.3_aarch64.AppImage'
+LINUX_ARM64_SHA256='66046b57e81d9d1cd9a037060e2d8af90473bbe8b767e146236d35afb756bcf2'
 
 log() {
   printf '%s\n' "$*"
