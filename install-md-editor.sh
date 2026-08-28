@@ -1,20 +1,20 @@
 #!/bin/sh
 set -eu
 
-APP_NAME='Markdown Editor'
-APP_BUNDLE='Markdown Editor.app'
+APP_NAME='Inkpoint'
+APP_BUNDLE='Inkpoint.app'
 APP_BIN_NAME='md-editor'
-APPIMAGE_FILE='Markdown_Editor.AppImage'
-VERSION='0.4.4'
+APPIMAGE_FILE='Inkpoint.AppImage'
+VERSION='0.4.5'
 
-DMG_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.4/Markdown.Editor_0.4.4_aarch64.dmg'
-DMG_SHA256='c3784d51c378cf2dffe5cc255cd11cafd6b6a8e59fec2eb7b92addfefdb39dd1'
+DMG_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.5/Inkpoint_0.4.5_aarch64.dmg'
+DMG_SHA256='cc415cb72b5736be54e453ebbf13392009bb4860c009aa1d6759fdc0d63e7fd4'
 
-LINUX_X64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.4/Markdown.Editor_0.4.4_amd64.AppImage'
+LINUX_X64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.5/Inkpoint_0.4.5_amd64.AppImage'
 LINUX_X64_SHA256=''
 
-LINUX_ARM64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.4/Markdown.Editor_0.4.4_aarch64.AppImage'
-LINUX_ARM64_SHA256='2ae4d5de55248b6726ebcf135e047a27bd6d32d56d583afbb65703e3bad21911'
+LINUX_ARM64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.5/Inkpoint_0.4.5_aarch64.AppImage'
+LINUX_ARM64_SHA256='9e2e2385f310442fe12d5a323dd2ec4204ca54b2517174431ec218940de795b4'
 
 log() {
   printf '%s\n' "$*"
@@ -183,7 +183,7 @@ install_linux() {
   desktop_entry="$DESKTOP_DIR/md-editor.desktop"
   cat << DESKTOP_FILE > "$desktop_entry"
 [Desktop Entry]
-Name=Markdown Editor
+Name=Inkpoint
 Comment=Daily-usable Markdown and MDX desktop editor
 Exec=$target_appimage %F
 Terminal=false

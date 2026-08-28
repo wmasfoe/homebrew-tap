@@ -1,10 +1,10 @@
 {
-  "version": "0.4.4",
-  "notes": "Markdown Editor 0.4.4",
+  "version": "0.4.5",
+  "notes": "Inkpoint 0.4.5",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdG1pZkh1VmY3YkpJK0VnZFBOMXdJU3NQRklTejFXRk80RDVsMXJBTHU5dXVwYUdER1FUNWZ0cUFaa3Fva1F2U3pYL2VQZzRzWnVZeTZPVmRmS1A3R1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODczNTI2CWZpbGU6TWFya2Rvd24gRWRpdG9yLmFwcC50YXIuZ3oKK2dUTWR0K2FXVTFZOU5EWFlHUWZPd29HdU1PaVZZS2RsYTZMUHJtbEJQVGsxd2dPdEdKamgwREFZWkJKSCtKL2U1dndGeGZ4ZXBaQ3g4MDRsbG9RQUE9PQo=",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.4/Markdown.Editor.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGhIZGMxZk42WGs3YnJtNmdpa25tTzZzMjJTUHFxOXpDZEE5OWdKdG12UlRQRmlXTTZPaWFoRFFrcHNEMTJpdVV0TXFqaGI1bGM5RVRpeUFXLzhwbVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODk0MzQxCWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negptQ3JLclVkK2lwSHFUQkpiQ0hoeGxNOGZmWTQxa21WVkc2NFA4cjZaS3gxeVNGbW5WZk1aeTJuOTAxZS9uNmc1Z1p4VWRZdExFakZ3bmVpbjZWcWdBZz09Cg==",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.5/Inkpoint.app.tar.gz"
     }
   }
 }

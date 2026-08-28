@@ -1,10 +1,10 @@
-# Markdown Editor Windows Installer
+# Inkpoint Windows Installer
 $ErrorActionPreference = 'Stop'
 
-$AppName = 'Markdown Editor'
-$Version = '0.4.4'
+$AppName = 'Inkpoint'
+$Version = '0.4.5'
 
-$WinX64Url = 'https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.4/Markdown.Editor_0.4.4_x64-setup.exe'
+$WinX64Url = 'https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.4.5/Inkpoint_0.4.5_x64-setup.exe'
 $WinX64Sha256 = ''
 
 $WinArm64Url = ''
