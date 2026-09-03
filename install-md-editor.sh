@@ -5,16 +5,16 @@ APP_NAME='Inkpoint'
 APP_BUNDLE='Inkpoint.app'
 APP_BIN_NAME='md-editor'
 APPIMAGE_FILE='Inkpoint.AppImage'
-VERSION='0.6.0'
+VERSION='0.6.1'
 
-DMG_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.6.0/Inkpoint_0.6.0_aarch64.dmg'
-DMG_SHA256='dcb2bc2143bbd16e9d84b3bd2175f4ed3bb06ba0fc7dafb4a1b9b0b60fa7a7e3'
+DMG_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.6.1/Inkpoint_0.6.1_aarch64.dmg'
+DMG_SHA256='530e5272295f02d7a0a649a84a9f68b68aab8f7f5ac95fe3e25650152bcd7a99'
 
-LINUX_X64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.6.0/Inkpoint_0.6.0_amd64.AppImage'
+LINUX_X64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.6.1/Inkpoint_0.6.1_amd64.AppImage'
 LINUX_X64_SHA256=''
 
-LINUX_ARM64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.6.0/Inkpoint_0.6.0_aarch64.AppImage'
-LINUX_ARM64_SHA256='d8ba2bb3a16ede8f8466ad9688c1c0d0539ff28c41a21d331c1e1233dde2a032'
+LINUX_ARM64_URL='https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.6.1/Inkpoint_0.6.1_aarch64.AppImage'
+LINUX_ARM64_SHA256='5e507c6216183aa99457ec4344b9d216c7c03fe59485a05d18fcebb1c401d813'
 
 log() {
   printf '%s\n' "$*"
