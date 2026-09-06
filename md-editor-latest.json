@@ -1,10 +1,10 @@
 {
-  "version": "0.6.3",
-  "notes": "Inkpoint 0.6.3",
+  "version": "0.7.0",
+  "notes": "Inkpoint 0.7.0",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGlZMjN2K0F4K2xteS9HTWtsWnJrVDF2ZFNXb0VKMEJpb1JKYVRDVkgydTlKc1BKc3Z5cXV6Q1FuRTNBQXY4V09PanM4dkFEdmE4ZDRrRkJpQXVzU2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NTMzNzM4CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpPYUFmV0FEMFFtRURmNFNjU3o2N3o5b0YwTHo1aEJmNWFiRmxzMmxmNVJhd2l6TWZsYVhvSm5pVUdoN3JRM3pkYmY4STVhQWUySlV4TVV2SDQ3ZU9BUT09Cg==",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.6.3/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGg2aElDeW14bGJoQklicVpTK0M4dmZXNWs1UEtNVFFqMDY2MG1nZ2FBR1NmMm82RGk2OUU5eGJOaVlqNzRnOFg3dHp5L0VmZkVINlhYWm1DRkk0bndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzAzMTcwCWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpTTDA1VGk3Rk5qM1U5QVEyNVgrM2pjUWVpaTFGeCtkR01wS3Q4UTFMbEZXQmY1RFBkaXhDWUJYL2FsckFwejYwcGpxTlR6WCt0WWNEK1RLcmVNNHRDZz09Cg==",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.7.0/Inkpoint.app.tar.gz"
     }
   }
 }
