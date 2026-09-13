@@ -2,9 +2,9 @@
 $ErrorActionPreference = 'Stop'
 
 $AppName = 'Inkpoint'
-$Version = '0.10.1'
+$Version = '0.10.2'
 
-$WinX64Url = 'https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.10.1/Inkpoint_0.10.1_x64-setup.exe'
+$WinX64Url = 'https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.10.2/Inkpoint_0.10.2_x64-setup.exe'
 $WinX64Sha256 = ''
 
 $WinArm64Url = ''
