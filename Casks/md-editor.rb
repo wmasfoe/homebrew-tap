@@ -1,8 +1,8 @@
 cask "md-editor" do
-  version "0.10.3"
-  sha256 "d34cc3054688b88e042977d9ac32a684971d0c6fc0d794bf3e96e34399bb907e"
+  version "0.10.4"
+  sha256 "d40cb4853cecb741ac9defa333adc5c9b4c465257a34b625e16020158d2853bc"
 
-  url "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.10.3/Inkpoint_0.10.3_aarch64.dmg"
+  url "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.10.4/Inkpoint_0.10.4_aarch64.dmg"
   name "Inkpoint"
   desc "Markdown and MDX-compatible desktop editor"
   homepage "https://github.com/wmasfoe/md-editor"
