@@ -2,12 +2,12 @@
 $ErrorActionPreference = 'Stop'
 
 $AppName = 'Inkpoint'
-$Version = '0.10.4'
+$Version = '0.11.0'
 
-$WinX64Url = 'https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.10.4/Inkpoint_0.10.4_x64-setup.exe'
+$WinX64Url = 'https://download.jiaqi.im/inkpoint/desktop/0.11.0/'
 $WinX64Sha256 = ''
 
-$WinArm64Url = ''
+$WinArm64Url = 'https://download.jiaqi.im/inkpoint/desktop/0.11.0/'
 $WinArm64Sha256 = ''
 
 function Log-Info($msg) {
