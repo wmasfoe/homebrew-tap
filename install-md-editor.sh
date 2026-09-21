@@ -10,8 +10,8 @@ VERSION='0.11.0'
 DMG_URL='https://download.jiaqi.im/inkpoint/desktop/0.11.0/Inkpoint_0.11.0_aarch64.dmg'
 DMG_SHA256='e3ec956c90aa09746fc470fe3b8b118bc93ae204183c0ceab9b34e778430ab04'
 
-LINUX_X64_URL='https://download.jiaqi.im/inkpoint/desktop/0.11.0/'
-LINUX_X64_SHA256=''
+LINUX_X64_URL='https://download.jiaqi.im/inkpoint/desktop/0.11.0/Inkpoint_0.11.0_amd64.AppImage'
+LINUX_X64_SHA256='b7b555664d49b9ca8d1438b57981e41edf6139990abbff0ffae386713987f03d'
 
 LINUX_ARM64_URL='https://download.jiaqi.im/inkpoint/desktop/0.11.0/Inkpoint_0.11.0_aarch64.AppImage'
 LINUX_ARM64_SHA256='ca81de072a709a2c00feccce939ac818f102d0888a0ecb265b5d3fbfb458f457'
