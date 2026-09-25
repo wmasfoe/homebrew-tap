@@ -1,10 +1,10 @@
 {
-  "version": "0.12.1",
-  "notes": "Inkpoint 0.12.1",
+  "version": "0.13.0",
+  "notes": "Inkpoint 0.13.0",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGdvU3A3bGxneVE0cW9kUEdoOWNwbWM4SXZUWHRJR1JpTnFlVVF3TlFoRXc4RzgrSVNhOGdEcmd6MFhnSiticVBUeGs3UVlmNmNQMlJxTDYzanFHK2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzI5OTYyCWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpwQVgwYkY1elpQTmtVeThENVFzRWRiV21keC9zZlZ2ZkdwaUtNRmMzendnOFlpV0dWK1ozdDJWeW9INHlPanlmeTJiZ0Rob2NLb2hOUFZlY2xLUWFBQT09Cg==",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.12.1/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdG1lN0xEaXROZUkyZFQ3WmlQSXhwbnlPaGhXZUtxbHVNVGk5Y3VtTkhJNHkxNEwyaTM4T2FwYXpsMnRocDYzOG5kSGhRdlJ0ZjA0SVE4VWdxdElDNXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzYzMTA2CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpnSmJPc1dJNXErSHBIS2lMeGhiNGU2ZVg0Q1V4RXZEZzA4RHlrLy8wbm1nbDd0VXZleHFFaktpbk9uWmVFT1YxMzhEYm8yVzNVVTN4bUZKaElJZ1JCdz09Cg==",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.13.0/Inkpoint.app.tar.gz"
     }
   }
 }
