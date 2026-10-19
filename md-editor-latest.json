@@ -1,10 +1,14 @@
 {
-  "version": "0.13.2",
-  "notes": "Inkpoint 0.13.2",
+  "version": "0.14.0",
+  "notes": "Inkpoint 0.14.0",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGgzZGx0SGU3T2FVZ0w2Tk16Q1RxY0VTNnA1LzRLRXBUdmcxSE1XQXRVRUlsVVFMMldsRFBwTXlSUTRGZ01RZENQeGpKREg3N0JpTFI1Qkp1V1NqSWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjQwOTc3CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negoxQko5T3ppVlNUSmtSRlJhTWx3bUV2WXRNSmsvYVB4VktPUFRVTGE1K2RGeUg3djdFdEtQNWlOdFMya21CSHlqZGZiVW84OUVJTkRLMDFTZmNpWnlEZz09Cg==",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.13.2/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdG1Id0U3ckg3aWh5c055ZEJOU2RVYWNNVmNjR1ZaL04zRGo2cGVDZndHaFVGSXA4Vy8yT1NSczhlcHoyQ0lVYlZOZW5qcXJ3cjkrZ1l2bms3Kytwb1FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDQzNzM3CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpob3NXS2VSK2k1S0J4ZUkySjlLVnN4Sy94MHl5QU54ZnRXa2FTTllHQ0Fla25GckFJK3Y1cFpoYnhrQWVDckhSYnRpU2laQnhXdzE4VzVRRlFrYmREUT09Cg==",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.14.0/Inkpoint.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGhYTzQ1VXpvbWF5Y3NVd1d3U2MvYjdaeUVsekVRUGplZVlNdkxzbzJEV0VDaVdtWnU5NUxNTHB6ZndacDFZeWQrNWdnTm5RTXE2UC9XQ2E5djlBRUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDQzMzI1CWZpbGU6SW5rcG9pbnRfMC4xNC4wX3g2NC1zZXR1cC5leGUKZ1lNT2RQKy95SHZaRHNXZUtEcFBYMXpzeXFnZ3NDRE1pb0NIdWs5cXRmMklaOVN6blBMWHpxTWFCT3NPcllUakhtb3QzUmRFL3duclprSWtWKyt6RHc9PQo=",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.14.0/Inkpoint_0.14.0_x64-setup.exe"
     }
   }
 }
