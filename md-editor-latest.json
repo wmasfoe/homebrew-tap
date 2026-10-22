@@ -1,14 +1,14 @@
 {
-  "version": "0.15.0",
-  "notes": "Inkpoint 0.15.0",
+  "version": "0.15.1",
+  "notes": "Inkpoint 0.15.1",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGpBOGUxMWdGQjZOSjlDR0hWd2pOMVV0YVBDUTRRSzkwOVZvU0M3Zi90WVVpVllDQ2ozVDkzUThZbzNLK3NoSkpnbW9IVk9VeDhMQTd4ZVpxcXZDVVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTA0MTAwCWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negp5TmxkcjI2LzlvaU1IaXlEMFp3SThzazEwWnEvQSs4TXloQ0F6blgvc3IwNC9LNFQzR3hEZFBQR3NGWUk5SllYbWJRWUI1SmZGdHBTTjV5ZTI1MmxBZz09Cg==",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.15.0/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGcxSlhTSFRBQjBydTg4YnZtYnhleGFxMFZwaDhMMy93RU1QVnhOaVdtaTEyc09hM3NUTzgvTUtFcVFPeXdGR2pYRS9VSXU5cFpIcEQ2V0h6aW9KQWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjcwMTQ3CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negp3bTNXNzcyUlc1amZ1ODdZOEJBSTMxYXFtQ3lYN2I1ZUd6Z09FMkYvbWVORDFSd0l6WDhqOCtwNDRhaXZ3WjMrZHZ0anJUcUFZQmZYeUFXTDkvV3VCUT09Cg==",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.15.1/Inkpoint.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdG5tWEprOVI0N3Fjc21pQjVQN1ZSbUZlMDJJWFIwa3hYZ1RmQWdmcnRDcTR4Mjd2Y2ZJZm1aQ1AzVytVelQzOGJvTmpHSjJMMjVPbHhYZHhTbG5aZFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTAzNjg2CWZpbGU6SW5rcG9pbnRfMC4xNS4wX3g2NC1zZXR1cC5leGUKSVJsN1V4YWE3NXhGMExCZ0RhUGFmRXpsU2FoSlczRFA3VHQzaFp4VzRVVnhrU1Ara0VBVVFwZ0lIU0x1eU5qOGdOUUkydS9ZQkFZV1pBMUFHb0FGQUE9PQo=",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.15.0/Inkpoint_0.15.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGdZUkJLek94YnQ3bG8wQVV1NDFYaElYbmVLL0Fyd0w0azF2UkllQWtEN3YvcHRvTjhVSWVud1lOVUROazMxN1ZLOUxHU2xNUHVvWWRqeDVjYWlYNEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjY5ODI3CWZpbGU6SW5rcG9pbnRfMC4xNS4xX3g2NC1zZXR1cC5leGUKOTB4dTh0dVpad1pnbFk1Y0tTNmhzdjdBN1k2T1FHc1BhMG5KZHZZbk4zNFlMNW5WOVZZYm5UeWFsblRGMVR0V2plQlFRQ0NxSUZpWG1PTEcxWFNxQmc9PQo=",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.15.1/Inkpoint_0.15.1_x64-setup.exe"
     }
   }
 }
