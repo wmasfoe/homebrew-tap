@@ -1,14 +1,14 @@
 {
-  "version": "0.15.1",
-  "notes": "Inkpoint 0.15.1",
+  "version": "0.16.0",
+  "notes": "## 0.16.0 - 2026-10-23\n\n- 检测到新版本后会弹出「本次更新内容」：版本、日期、关联 PR 与项目符号列表，与官网更新日志同源。\n- 同一版本只提示一次，并可「跳过此版本」——跳过后不再自动提示，也不会在后台自动下载该版本。\n- 下载完成改为标题栏「重启以更新」加一次提示，不再用弹窗打断写作。\n- 更新检查改为启动后立即执行（原为启动 30 秒后），自动下载的默认值保持不变。\n- 设置新增独立「更新」页：版本对比、状态、下载进度、本次更新日志、检查/下载/安装并重启/跳过，以及自动更新开关。\n- macOS 菜单新增「关于 Inkpoint」独立窗口：应用图标、版本、产品定位、主要能力与官网、更新日志、GitHub、许可证链接；Windows 与 Linux 可从命令面板或设置进入。\n- 更新内容改由发版流程从 CHANGELOG 抽取并写入更新清单与 Release 说明，缺失时发版直接失败，避免再出现「有新版本却没有更新内容」。",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGcxSlhTSFRBQjBydTg4YnZtYnhleGFxMFZwaDhMMy93RU1QVnhOaVdtaTEyc09hM3NUTzgvTUtFcVFPeXdGR2pYRS9VSXU5cFpIcEQ2V0h6aW9KQWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjcwMTQ3CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negp3bTNXNzcyUlc1amZ1ODdZOEJBSTMxYXFtQ3lYN2I1ZUd6Z09FMkYvbWVORDFSd0l6WDhqOCtwNDRhaXZ3WjMrZHZ0anJUcUFZQmZYeUFXTDkvV3VCUT09Cg==",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.15.1/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHExVFB2eWNEY1ZIUUJoQVI1bmNPbTN4ZU03TEI2emtjc096anh2RXhQdkd1aTB3N1RRNGd6OTBUczFyOSsyazN4N1dIK3c4MVJpcHpjRjgrUHJWTlFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzM4OTEwCWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpHbkZKaXZNdVROS3Q4eXE5Wmk1VFdlV01FUGxJVHlZNEVyNWxaTkliRDg3UnhjZ3Z4T0RYV2x3YlFNTUxtQnBOYjV6ZS81bFlZcnQzMm1WaTZhcWJCQT09Cg==",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.16.0/Inkpoint.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGdZUkJLek94YnQ3bG8wQVV1NDFYaElYbmVLL0Fyd0w0azF2UkllQWtEN3YvcHRvTjhVSWVud1lOVUROazMxN1ZLOUxHU2xNUHVvWWRqeDVjYWlYNEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjY5ODI3CWZpbGU6SW5rcG9pbnRfMC4xNS4xX3g2NC1zZXR1cC5leGUKOTB4dTh0dVpad1pnbFk1Y0tTNmhzdjdBN1k2T1FHc1BhMG5KZHZZbk4zNFlMNW5WOVZZYm5UeWFsblRGMVR0V2plQlFRQ0NxSUZpWG1PTEcxWFNxQmc9PQo=",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.15.1/Inkpoint_0.15.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHZ6d0JKejNnOXJsVllwTWJpWGo3M3lOazdxUXNYWHQyTC9vMXBYdWtabEREUVJGcXBOdGF6TlZ2dWExaVJodG94QmV0WUdqQWhEeVRvZDhtN2Q2Y2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzM4NTk4CWZpbGU6SW5rcG9pbnRfMC4xNi4wX3g2NC1zZXR1cC5leGUKK0pGNlA4czlkWlUxUGRwZHlrVFp3eTdLSnk2a29PNUFvYURXa3JHUlR0a1hGUFowYk9nMC8rZDZzWmU4SURYUjNVbmhuOXFKbmVSSmVPYVRyS2hPQVE9PQo=",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.16.0/Inkpoint_0.16.0_x64-setup.exe"
     }
   }
 }

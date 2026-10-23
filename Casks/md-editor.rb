@@ -1,8 +1,8 @@
 cask "md-editor" do
-  version "0.15.1"
-  sha256 "c60b9189503907e3e296858c17bc863ef3a665f787b15f0b8ec555226e7d23a6"
+  version "0.16.0"
+  sha256 "9edb2a5a82ee57896e80771c1d00a6e12f9c40db8ab872a73d609d615c784d65"
 
-  url "https://download.jiaqi.im/inkpoint/desktop/0.15.1/Inkpoint_0.15.1_aarch64.dmg"
+  url "https://download.jiaqi.im/inkpoint/desktop/0.16.0/Inkpoint_0.16.0_aarch64.dmg"
   name "Inkpoint"
   desc "Markdown and MDX-compatible desktop editor"
   homepage "https://github.com/wmasfoe/md-editor"
