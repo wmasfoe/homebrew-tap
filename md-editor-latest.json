@@ -1,14 +1,14 @@
 {
-  "version": "0.16.3",
-  "notes": "## 0.16.3 - 2026-10-24 (#191,192)\n\n- 修复 Linux AppImage 启动器执行权限缺失与初始窗口标题问题，并强化无头 X11 沙箱启动验收，确保在 Firejail 等沙箱环境中可正常启动。",
+  "version": "0.16.5",
+  "notes": "## 0.16.5 - 2026-10-24 (#193, #194, #196)\n\n- Linux AppImage 的更新信息写入 ELF .upd_info 并附带 .zsync，构建不再通过启动应用来查询更新信息。\n- AppStream 元数据兼容 Ubuntu 22.04 的 appstreamcli。\n- Linux AppImage 补齐 AppStream 元数据与 zsync 更新信息，不再内置 libwayland-client.so.0，改由系统提供。\n- 许可证改为标准 GPL-3.0-or-later，不再附带 Apple App Store 额外许可。",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHBienZiNEhiL080R2N0bnpIYjdNSlR0Z3pNcS93QXQzYktuN080cHdlNjBVWmpEUUNmRUowRFg4eGphVDJXUXYwaFBkVVk0Vzl6Q3RaMWo0YkF5OUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODM3NDgxCWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpGSE1ENWVWbC8zZy80YVRpc2pZcTNMMDFsZTA2Snh5UEJjVG9iV0lXVVRhRm85QmNadHZpODFROFgzUUxzblZhUFhTeWdQbzlpN3JqVmRISDhqRjZBUT09Cg==",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.16.3/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGloeHdjTE95dG9rY1pXV055R1Y2MVY0Q05pSi9qWTFYKytXZGtndDhvQzhhbVM1TGtFSkhGVksyVDFBcXBpQWJ4T2dlY0c2UUIxbEh2V2l0TkdYd1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODU3MzQzCWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpXNFRjWWYwZVJFaWpDZCtKWDQ4K09aNmNGeVJsT3pDd1BOTkRwaXA0dmRiUTdBS0FRSm1xYnkzLzh1THJhU1I4dUp5NUg2UXJ1MEJkb1pkbDhrRUREQT09Cg==",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.16.5/Inkpoint.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHJkNTc5NHE4a3ZQODZLK0dOTkczMU9JM0dvbWx1VnF5eUhMMnBpRjY2ekk3R291QnRyQjJWd1M1LzY1YzJMT2VxTnBxN3B5bzNxc0hLNTdKRDhCYlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODM3MTEyCWZpbGU6SW5rcG9pbnRfMC4xNi4zX3g2NC1zZXR1cC5leGUKWXZzK3U3Sk9OSmVWVFNhdkQ5N2tpS1pWUnh5ejJlUE1aQ05jbGlWSFVLbFkrcFd1S3NTbm9hY01HdFUvdmVmV05mZGlTRjVGNlpKM0RKNTJ3N1Y0QkE9PQo=",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.16.3/Inkpoint_0.16.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGpSZmlYek1xNlNUSjdvSGdCMURHZ3FTMURlcjFzUmg3WU9KYUprUDBCbStsZWQ3bWRoWUIwcm9jOEQvWlMzeUp2RjZUWlg3L3lPdTBnejhBeW5SYndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODU2OTI4CWZpbGU6SW5rcG9pbnRfMC4xNi41X3g2NC1zZXR1cC5leGUKeldpbGxZZ3J3VVh5c3BuSzdDWnF1amI3TEg1Zmtmek45U2x0Zzh0K1FJSng4WUlMOFp6dloxTkZnbjFBNWs1UnlaMXFwQk5jbThtQ3ZzZElrUzBxRGc9PQo=",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.16.5/Inkpoint_0.16.5_x64-setup.exe"
     }
   }
 }

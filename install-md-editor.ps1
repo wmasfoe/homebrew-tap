@@ -2,10 +2,10 @@
 $ErrorActionPreference = 'Stop'
 
 $AppName = 'Inkpoint'
-$Version = '0.16.3'
+$Version = '0.16.5'
 
-$WinX64Url = 'https://download.jiaqi.im/inkpoint/desktop/0.16.3/Inkpoint_0.16.3_x64-setup.exe'
-$WinX64Sha256 = '88bfdb1ebc15228529607db2756690cd9e8f59246339d583b88ea9bd596658fa'
+$WinX64Url = 'https://download.jiaqi.im/inkpoint/desktop/0.16.5/Inkpoint_0.16.5_x64-setup.exe'
+$WinX64Sha256 = '2306874590dee80c8ca1b2dbc8efa5c9234125ec4462c7e4895455cc7d802086'
 
 $WinArm64Url = ''
 $WinArm64Sha256 = ''
