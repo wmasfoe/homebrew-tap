@@ -1,14 +1,14 @@
 {
-  "version": "0.16.1",
-  "notes": "## 0.16.1 - 2026-10-23 (#190)\n\n- 修复 Linux AppImage 内图标链接指向构建机路径的问题，确保下载或移动后仍可正确读取应用图标。",
+  "version": "0.16.3",
+  "notes": "## 0.16.3 - 2026-10-24 (#191,192)\n\n- 修复 Linux AppImage 启动器执行权限缺失与初始窗口标题问题，并强化无头 X11 沙箱启动验收，确保在 Firejail 等沙箱环境中可正常启动。",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHNiQzZVS3ZFMlU0S0twK0NTSlFEclZ2b2NSTWc5eDhlVG5RSFNROC92UG9jUWpsNEVoUU1lYWNpbjF2bmxOc2pyZS96Z0pYZzlzTWdibFZsRUFHUWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzUxOTkyCWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpONEhDYVZvbHRNa2VmcHpaQjhlbGg3WU5XUXVVTEl0QW14WjNjMnF5NFhPcldmNzNrQU8yNzhIR2hsS3V4Z3BmYXU0c0Vmamp6L1VScVRxNEo0Ri9DUT09Cg==",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.16.1/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHBienZiNEhiL080R2N0bnpIYjdNSlR0Z3pNcS93QXQzYktuN080cHdlNjBVWmpEUUNmRUowRFg4eGphVDJXUXYwaFBkVVk0Vzl6Q3RaMWo0YkF5OUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODM3NDgxCWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpGSE1ENWVWbC8zZy80YVRpc2pZcTNMMDFsZTA2Snh5UEJjVG9iV0lXVVRhRm85QmNadHZpODFROFgzUUxzblZhUFhTeWdQbzlpN3JqVmRISDhqRjZBUT09Cg==",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.16.3/Inkpoint.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHFrQmZOVHgzR2xmKy9NQ00zVmF4N2FsTVlWQWtqaThlTEdtNXlxTk5yR1dpUXYyUkQ0ODFRUkpyY0pCWVlwUzJlb3NXY21yZ1dIVERXZUZzaDNnUGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzUyMjQ4CWZpbGU6SW5rcG9pbnRfMC4xNi4xX3g2NC1zZXR1cC5leGUKSUhqZktqUWcvUXdYc0FOWlo0U1VPTHVzNzY2cHdxNUU4d0hBRGZqUlNYVldTOFhYMVYzcVY3TmlhdUZEdWREQm9OUng3b3N3NHRUUDhXWlR1NDN1Q2c9PQo=",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.16.1/Inkpoint_0.16.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHJkNTc5NHE4a3ZQODZLK0dOTkczMU9JM0dvbWx1VnF5eUhMMnBpRjY2ekk3R291QnRyQjJWd1M1LzY1YzJMT2VxTnBxN3B5bzNxc0hLNTdKRDhCYlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODM3MTEyCWZpbGU6SW5rcG9pbnRfMC4xNi4zX3g2NC1zZXR1cC5leGUKWXZzK3U3Sk9OSmVWVFNhdkQ5N2tpS1pWUnh5ejJlUE1aQ05jbGlWSFVLbFkrcFd1S3NTbm9hY01HdFUvdmVmV05mZGlTRjVGNlpKM0RKNTJ3N1Y0QkE9PQo=",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.16.3/Inkpoint_0.16.3_x64-setup.exe"
     }
   }
 }
