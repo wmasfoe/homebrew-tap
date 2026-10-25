@@ -1,14 +1,14 @@
 {
-  "version": "0.17.0",
-  "notes": "## 0.17.0 - 2026-10-25 (#199, #200)\n\n- AI 设置支持 OpenAI 兼容服务、Anthropic Claude 和 Google Gemini，并支持自定义服务地址与模型。\n- 优化 AI 纠错和续写的输入检查与结果处理，减少重复内容、思考文本和错位建议。\n- 修复桌面本地模型请求失败、续写任务误用纠错适配器的问题，并校正 Lite 模型下载校验信息。",
+  "version": "0.17.1",
+  "notes": "## 0.17.1 - 2026-10-25 (#201)\n\n- 修复 macOS 使用本地模型时，因运行库依赖缺失和签名加载问题导致的启动失败。",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdG11bXJUVzM4L1RwR2thcUEwcE9YcjRwTk9BNllnMFRqY0xZK29ETk9neE0vMkZ0d1I0eVVKeDhxTFV5YW5YK2U5d3llL1FGcW02VWNma3pNNnNqMXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTM4Mzk2CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negp5WCtuQldRemRYL2k2alg0SGs4Zmswc0ZSajZvNU5laTE0UGErYTNPUzhwemxzUnpPUi9RcFlraDdQcC9KZDNZbTV1N2N6cERxY0Q1clpzSkUvQ05Cdz09Cg==",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.17.0/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHBpam8vYmltcTlWMHlwZmt0M2NQT09laXRiZmtNK3JtVnNZVW9WeUIrbXBzU1VTU1UxSUY3bmxwL2E4OUVmUm5meVhYdHhuZDRzS0M5QU9YZ1NUa0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTQxNDQ3CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpxZWw2RUg3ZTBib2VTWkF2ZUNqL3pyUFZoRkFma2xhaFhvY2xOcE82Q0ZwcXdUNjVaWmxFTlBOTjZuTmRzYnNQSE12eXRha2ZocFNkMk5UM1BZYzFBQT09Cg==",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.17.1/Inkpoint.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHVDRlMyTWZLemhUcW40cGZwN1hVdjJrTDhZM2NmT0ZRbWRIRnE0cEgzU3lCbkZXRi9TcG9VUUpZNWUzdTZMdm1TRisxMFFzOWJQUHgyOS8vd29PVmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTM4MTE0CWZpbGU6SW5rcG9pbnRfMC4xNy4wX3g2NC1zZXR1cC5leGUKS05CNVVQWGxOYm5yTk1naTFiSU5ZNUt5aHp4TWpPd2tTdVBCRlBwM2RiN1BER1NpV1VENmcvK3VnUjJYYzBlc1A1K1FMNEJZREtDZDZyZ2dmTU4xQVE9PQo=",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.17.0/Inkpoint_0.17.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHRjS3FLSVNkSWRybXJodVEwVjU4Si9BclBpSlpGSXFEbFZhb09uT1k3czJ3NVBqblJKZGN3Q0hlbmJUTk0yaU90d000ajFuYlZaNDgyWDVBVlYzN3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTQxNTgyCWZpbGU6SW5rcG9pbnRfMC4xNy4xX3g2NC1zZXR1cC5leGUKa0FqcWFmaXJTS2cyZXA2ZUNvbC84cjhaYldSRHJBall3SFRtSVA5SXlLK3I2NnNOckZ6Z2hJSEFsY3pLdVgvOVRvV3NtYys5NVVVSWFYNmljMTRsQnc9PQo=",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.17.1/Inkpoint_0.17.1_x64-setup.exe"
     }
   }
 }
