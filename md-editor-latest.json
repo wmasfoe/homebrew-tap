@@ -1,14 +1,14 @@
 {
-  "version": "0.17.1",
-  "notes": "## 0.17.1 - 2026-10-25 (#201)\n\n- 修复 macOS 使用本地模型时，因运行库依赖缺失和签名加载问题导致的启动失败。",
+  "version": "0.18.0",
+  "notes": "## 0.18.0 - 2026-10-28 (#202)\n\n- 草稿自动恢复 (Hot Exit)：未保存的修改在应用关闭或退出时会自动暂存；下次启动时展示恢复提示，可一键还原草稿或丢弃，避免突发关闭导致内容丢失。\n- 文档历史版本与快照：新增侧边历史版本抽屉，自动记录编辑快照；支持直观查看各版本间的行级差异（Diff 高亮），支持键盘快捷切换并可一键回退到指定历史版本。\n- Markdown 规范检查 (Lint)：集成基于 markdownlint 的实时格式检查与波浪下划线标记；支持悬停查看说明与单项快速修复，按下 ⌥⇧L 打开底部诊断面板，支持 ⌥⇧F 一键批量自动修复常见排版问题（支持中、英、日、繁体多语言实时切换）。\n- 高质量 HTML 与 PDF 导出：标题栏新增快捷导出入口，支持导出为保留完整主题样式（含代码高亮、数学公式与 Mermaid 图表）的独立 HTML 文件或原生矢量分页 PDF，同时支持直接复制富文本 HTML 至剪贴板。\n- 设置面板优化：重构设置架构，分类更清晰；新增独立的「快捷键设置」，支持自定义 Markdown 检查与一键修复快捷键，并提供一键恢复默认。",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHBpam8vYmltcTlWMHlwZmt0M2NQT09laXRiZmtNK3JtVnNZVW9WeUIrbXBzU1VTU1UxSUY3bmxwL2E4OUVmUm5meVhYdHhuZDRzS0M5QU9YZ1NUa0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTQxNDQ3CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpxZWw2RUg3ZTBib2VTWkF2ZUNqL3pyUFZoRkFma2xhaFhvY2xOcE82Q0ZwcXdUNjVaWmxFTlBOTjZuTmRzYnNQSE12eXRha2ZocFNkMk5UM1BZYzFBQT09Cg==",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.17.1/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHZMeDVBdHdtaGhGbjlqL3VWVDA5a0kwOWVUQU9zMGM2UlJLbjYwNzZvVmZTVzBDN2tIVHdyd3EzbUdaRFIxNk1WYUxSdkxRS1daa2hPN2FUWDlZU0FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTY3NjI3CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpBbUJWdXR2aEwxUERDZFhJNlRRLzhndk85SW0yRGEzZ0t6NW4wWXQ1WHd2QzE3N2tVMnpBYjZsbzI3MVF1eFhkQktSay9KR1FuUWU2b1RPcC8xeFFBZz09Cg==",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.18.0/Inkpoint.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHRjS3FLSVNkSWRybXJodVEwVjU4Si9BclBpSlpGSXFEbFZhb09uT1k3czJ3NVBqblJKZGN3Q0hlbmJUTk0yaU90d000ajFuYlZaNDgyWDVBVlYzN3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTQxNTgyCWZpbGU6SW5rcG9pbnRfMC4xNy4xX3g2NC1zZXR1cC5leGUKa0FqcWFmaXJTS2cyZXA2ZUNvbC84cjhaYldSRHJBall3SFRtSVA5SXlLK3I2NnNOckZ6Z2hJSEFsY3pLdVgvOVRvV3NtYys5NVVVSWFYNmljMTRsQnc9PQo=",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.17.1/Inkpoint_0.17.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGcrNUVTcGdPZlMwYTREVndZamdmcWphTnB3Rys3QjNNaTVnTDlDQ3NxV3BOYUFaV2lZL1JBSUNIcWtWMXJwRzVDR0E3YzV2MXJzSWxEMTR5WEdCamdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTY3NDI0CWZpbGU6SW5rcG9pbnRfMC4xOC4wX3g2NC1zZXR1cC5leGUKbTlSSVVwdElSaDBoU2oza0ZFdVBMZWlUU2gwWDFiNXZVUjZ2S1dYczRLNVNyY010SEF4L3FTZm9VbWY4Qi9UanIxczJYZ0cwRUs5WDlPU2dTV2lGQWc9PQo=",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.18.0/Inkpoint_0.18.0_x64-setup.exe"
     }
   }
 }
