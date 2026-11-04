@@ -1,14 +1,14 @@
 {
-  "version": "0.19.1",
-  "notes": "## 0.19.1 - 2026-11-02 (#209)\n\n- 彻底治理 macOS 窗口尺寸缩放时的原生三色交通灯抖动与位移问题：统一基线坐标至 (9.0, 18.0)，移除多余补偿逻辑。\n- 修复 AI 语法纠错（GEC）在非本地模型下的往复死循环：新增文档级物理中止（AbortSignal）与最近接受指纹收敛缓存，并将纠错范围精准收敛至当前段落。\n- 视口外建议两阶段定位与提词浮条：基于实际屏幕视口像素几何判定建议是否在屏幕外，悬浮显示毛玻璃定位提示（第 1 次按 Tab 平滑滚动居中，第 2 次按 Tab 采纳建议），并支持打字光标锚点保护。\n- 剔除无意义的重复建议项：自动过滤修改前与修改后文本完全一致的冗余建议。",
+  "version": "0.19.2",
+  "notes": "## 0.19.2 - 2026-11-04 (#213)\n\n- 修复 CodeMirror 视图更新期间的几何测量冲突，提高 AI 建议浮标视口定位的稳定性；统整官方域名与下载服务至 jiaqi.im。",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdG1nSFplQ2VwOGdhRzJNTk5vbnhEMlV1NHRUNE5rZFhSSlNtdGpkbGhGdEQzblArbyt4b3AwWG5ZTkxoVGViUTlSRk9sQWVQK08yNzZxRSt2UXlwT3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjMyNjk3CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpybll0OWdicjdPK1cySFpDY1pEdFRNL3JhQ0xpbHZmWmlQRGFjS1ZScFF1U0R3OUt5QzhtcVcrTjBoQnNONy9kak9wZGRNSkJXazJuakFQMFVGVndDUT09Cg==",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.19.1/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGdpNCs1WHE4QmJQVDJxbFArL01VK1FMM1JqdE9OQ1VUQTNtZEVNSmFqa0U1MlpZL2hXa3hKZVpWWVA0TExJT2V6c1YvR3N2N2RQV1NEUmJ1ZGl2WUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzc1MDEyCWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpyWEJVd3lyRGhrWXZUcmNLNW1KUmZXMzF1K0orTGFoK2hxSlQ0cUxsWHIvRXZQNUJjc2NDcnhLU0dXdG1EdWVKNVo4UjRqMVJ1WEFnQW9aMEo4Uy9Cdz09Cg==",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.19.2/Inkpoint.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHRqVWRRbmN5Rk5LaWZKb01Gd3hHTk03eTF6L0d2ZVM5UHQwbGhNQ3d2RTNaUlFtL1Z2MGZ5am5KQnByTm5oZnNrY1RjS0RLcTBxeUhCNjRPTjNlYkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjMyNzI3CWZpbGU6SW5rcG9pbnRfMC4xOS4xX3g2NC1zZXR1cC5leGUKYkIwaXZTNXM1SWxEM3YxVFBtMWFac3NNQzZFZlY2R1JmU3NFdUZWd282MjIxL1lZbVFYQkJKRklCWGpBQmJJeVJRRlZ1WGRaaVk3b0JKck1rcE5oQUE9PQo=",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.19.1/Inkpoint_0.19.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHNERWJMWkJOMlVVazI4NjFrYkswZDM5cmNBdzNIZjhteVVLaHMvL3c5N2NtSFB4Q3JGL0RKZFVEdGticmp0d2lSQ3NzUEF3dWZkRnR1ell6d3RyaHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzc0NTU0CWZpbGU6SW5rcG9pbnRfMC4xOS4yX3g2NC1zZXR1cC5leGUKZ21PNE5jV3FuVW8yYXo3bXl3bld2aTFZL004TEtOWURoeHpWMC9oODRUUlJVVFdadGttLzVDWW9uMThhQ2ZyVFhJalB4SzFlL2NJQ0JjeUhEb3BGREE9PQo=",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.19.2/Inkpoint_0.19.2_x64-setup.exe"
     }
   }
 }
