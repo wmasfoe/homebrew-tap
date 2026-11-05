@@ -1,14 +1,14 @@
 {
-  "version": "0.19.2",
-  "notes": "## 0.19.2 - 2026-11-04 (#213)\n\n- 修复 CodeMirror 视图更新期间的几何测量冲突，提高 AI 建议浮标视口定位的稳定性；统整官方域名与下载服务至 jiaqi.im。",
+  "version": "0.19.3",
+  "notes": "## 0.19.3 - 2026-11-05 (#215, #216)\n\n- 修复快捷键定制、键位大小写及菜单冲突；优化折叠标记首次点击光标定位；遵循 AI 续写关闭开关；生产构建自动上传 Sentry 符号表且不随包分发",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGdpNCs1WHE4QmJQVDJxbFArL01VK1FMM1JqdE9OQ1VUQTNtZEVNSmFqa0U1MlpZL2hXa3hKZVpWWVA0TExJT2V6c1YvR3N2N2RQV1NEUmJ1ZGl2WUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzc1MDEyCWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpyWEJVd3lyRGhrWXZUcmNLNW1KUmZXMzF1K0orTGFoK2hxSlQ0cUxsWHIvRXZQNUJjc2NDcnhLU0dXdG1EdWVKNVo4UjRqMVJ1WEFnQW9aMEo4Uy9Cdz09Cg==",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.19.2/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHFYaDd4S3p1N1lWWWZ4OGdKem5RT3NRcVQ2cDBJQzI0UTJFWnJEbVhWUlB0c2pOak1XRU5VdDFVNjl4azB4YndaV1JtazJ4cGczZ0RuUjQ3SWpheGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODUxNjU4CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpXb1Q4OVVsOUxMK0JIYWNPNXYzMnFNUURFREdtUkpUYjNrc2FOSDFXYWIrdGtTTTdIVnF4T21hKzN5SDZ5ekwrK0V3UEZBODZhM0F4WXVTN210S2tEZz09Cg==",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.19.3/Inkpoint.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHNERWJMWkJOMlVVazI4NjFrYkswZDM5cmNBdzNIZjhteVVLaHMvL3c5N2NtSFB4Q3JGL0RKZFVEdGticmp0d2lSQ3NzUEF3dWZkRnR1ell6d3RyaHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzc0NTU0CWZpbGU6SW5rcG9pbnRfMC4xOS4yX3g2NC1zZXR1cC5leGUKZ21PNE5jV3FuVW8yYXo3bXl3bld2aTFZL004TEtOWURoeHpWMC9oODRUUlJVVFdadGttLzVDWW9uMThhQ2ZyVFhJalB4SzFlL2NJQ0JjeUhEb3BGREE9PQo=",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.19.2/Inkpoint_0.19.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHB3KzQwcmRSZklPWGlReGM5S1pja3R6bHluWklQelJLRzByRGJ1K3NuZjZNdHZOdWhmUmhSeENBUXI1aUhuR1dJa00ydnNyaWNiOFZvc01yZFZTZ2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODUxODYxCWZpbGU6SW5rcG9pbnRfMC4xOS4zX3g2NC1zZXR1cC5leGUKN2huQktZcFUvTGp2Y01qREpnemViejJ3bUlrNVdMQlBTcytPNE9MelBjVzRRd044UzJaZzdNR3d2U3dwZGlhakZtK0JKTGswVFFMOEJPVmRMN2YzQ2c9PQo=",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.19.3/Inkpoint_0.19.3_x64-setup.exe"
     }
   }
 }
