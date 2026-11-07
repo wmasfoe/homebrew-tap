@@ -5,16 +5,16 @@ APP_NAME='Inkpoint'
 APP_BUNDLE='Inkpoint.app'
 APP_BIN_NAME='md-editor'
 APPIMAGE_FILE='Inkpoint.AppImage'
-VERSION='0.21.0'
+VERSION='0.21.1'
 
-DMG_URL='https://download.jiaqi.im/inkpoint/desktop/0.21.0/Inkpoint_0.21.0_aarch64.dmg'
-DMG_SHA256='53ba184c10213abebfff0a21ffa0675215149608f234ff29fa5b6454a30035b6'
+DMG_URL='https://download.jiaqi.im/inkpoint/desktop/0.21.1/Inkpoint_0.21.1_aarch64.dmg'
+DMG_SHA256='f553a2ca6b59c1cd1b3bf72776e2248e2eb0f7f7bdb7e412ca42ec7742bb8e70'
 
-LINUX_X64_URL='https://download.jiaqi.im/inkpoint/desktop/0.21.0/Inkpoint_0.21.0_amd64.AppImage'
-LINUX_X64_SHA256='fcfdcaae75d405bdcaf7d09cdb7dde6c4a7023962f1aef88367044149b8c3869'
+LINUX_X64_URL='https://download.jiaqi.im/inkpoint/desktop/0.21.1/Inkpoint_0.21.1_amd64.AppImage'
+LINUX_X64_SHA256='93128e8179c40fcc292e928a1a54e3529ab6190c02b11ce654331f71d92616e4'
 
-LINUX_ARM64_URL='https://download.jiaqi.im/inkpoint/desktop/0.21.0/Inkpoint_0.21.0_aarch64.AppImage'
-LINUX_ARM64_SHA256='e5b1182b4c2140116f69134774c6acbfe77c4e2fc84c527f1ff7582017a59ede'
+LINUX_ARM64_URL='https://download.jiaqi.im/inkpoint/desktop/0.21.1/Inkpoint_0.21.1_aarch64.AppImage'
+LINUX_ARM64_SHA256='a6c41da220f6764c489aea290bea74ac9d2da2f9dc7f26d1d0e748f519b4520f'
 
 log() {
   printf '%s\n' "$*"
