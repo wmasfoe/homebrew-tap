@@ -1,14 +1,14 @@
 {
-  "version": "0.20.0",
-  "notes": "## 0.20.0 - 2026-11-07 (#217, #218, #219, #220, #221)\n\n- 智能粘贴：从网页等来源复制的富文本会自动转换为干净的 Markdown（保留标题、列表、表格与代码块），IDE 与纯文本粘贴保持原样，按住 Shift 粘贴为纯文本；选中文本后粘贴链接会自动生成 Markdown 链接。\n- HTML 块就地编辑：双击或点击「编辑源码」即可在文档内展开 HTML 源码，Mod-Enter / Esc 收起；方向键只选中整块，预览中的链接可直接点击打开；HTML 注释保留为弱化的源码行。\n- 文末续写：文档以表格、HTML、分割线等块结尾时，可直接在块下方继续书写；该空行仅用于编辑，不会写入文件。\n- 快捷键调整：「打开文件夹」改为 Mod-Alt-O，避免与有序列表快捷键冲突；修正替换面板、编辑器外格式快捷键与双击拖选按词扩展；原子块被选中时不再出现游离光标。",
+  "version": "0.21.0",
+  "notes": "## 0.21.0 - 2026-11-07 (#224)\n\n- 外部插件：可从 GitHub Release 安装社区插件，无需重新编译应用。支持自定义语法、写作命令、模板、快捷键与独立设置；首次安装前展示来源、版本与摘要并需确认；支持更新、回退、停用与 --disable-external-plugins 安全启动。插件开发可参考 inkpoint-plugin-starter。",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHJ5eVpiZllxQ1c1L3hKdG94ZlVUY2dTSFNveXdneTh4alVXUnZ6T3IxdXRCZEYrQUl6ZzZwZFdVTUFzUDZXZXBwanlLYkZBbGZUNzk5V2cwYldrZUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQyMDI1CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negp5UU91S0xjTmFMTEV1VHpQNWwzVFIvbTREVXpFMU1OWk5iMkdMVjNBRFhVSDd0YzBRYmdOa2ZiRVoweDdKUmR3azlLaURqYWZ2OVY0RVh3VEg5VFBDQT09Cg==",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.20.0/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdG5McjFxNjRyYmpPSG55eC8zdURTQjJTVXhOaWV2SGFJdnFjWmpRY0lKa1BiUUNORDNvelN5VDRKeFJKY0syREhXZnhGdWF0YUxPYjRoWkFSRTUvUHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY4NTc3CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpuaGZsTWxZakgzNkVVaGdUSDNUbk9kSlo1UGxUYk8zSWRkMWxtVXhCcDZmZ3RwbFdsUEx2ZzVYbTJUWlEzUWxTVHEzOUxoUmFackI3OHh3NVMyR1dDZz09Cg==",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.21.0/Inkpoint.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHVUQVJOM01ISjBtNDB5TGxDaTYwOExmaXV1N3hyd2xsamRMYTNObngrcnRzWFM2OVJBaW5zcHdJT09rT2ZtRXhwdW03N3dOZERLZEd5aGljZld3U2dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQxMzM0CWZpbGU6SW5rcG9pbnRfMC4yMC4wX3g2NC1zZXR1cC5leGUKOEJWN0NDMWdxbXUySmJ3Z1hRamcxRW81T1QrbVZqajU2OEF4OTBFU0VFN2xrS0k3MHRYalZ5dlRFMENSWjVLdFJXNlAxZWRTMEFHNFpZN3FvYSt3RFE9PQo=",
-      "url": "https://download.jiaqi.im/inkpoint/desktop/0.20.0/Inkpoint_0.20.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHRxWHFUdWFxaUE0UzdSd1lkcXN2SDlQTG90cXhyZ0FPZTlKR0o2NXNKV1I2Z2RKODZiaTR5R3NEQ20xNHlsSUxwQ2c5VFYwN0IybUFWbHY0N3R5aGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY4MzE5CWZpbGU6SW5rcG9pbnRfMC4yMS4wX3g2NC1zZXR1cC5leGUKdjh2L29HTDRqWVJVemdaWXVkd0IvVVNKQzlyem9wenIxZ1hmaFY5VmpJOHVLeU0wYzJLZkdNMDZCT3pZMklnTFMyQ3VEZFl4RHF4aFBJS3YyMEp5QlE9PQo=",
+      "url": "https://download.jiaqi.im/inkpoint/desktop/0.21.0/Inkpoint_0.21.0_x64-setup.exe"
     }
   }
 }
