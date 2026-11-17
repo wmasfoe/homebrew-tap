@@ -1,46 +1,46 @@
 {
-  "version": "0.23.0",
-  "notes": "## 0.23.0 - 2026-11-17\n\n- 支持 Mermaid 流程图与时序图的图形化编辑：拖拽连线、双击改文字、双击空白新建节点，应用后单步可撤销",
+  "version": "0.23.1",
+  "notes": "## 0.23.1 - 2026-11-17 (#264)\n\n- 修复 macOS 双击 Markdown 文件只启动应用却未打开文件的问题，支持冷启动、运行中打开及特殊字符路径，并保留未保存内容确认。统一文件树及打开、保存对话框支持的 Markdown 扩展名。",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHBsWUltNWFCWHNjSHhtMFM0T0NFSXE5cjgvUEJMM2RiQmZJdDhhenB6RlljWHczNFBubWh5ZlRuUWk1NG0xcktoQThhYkFFbGRYckc5c1gxYTFOQXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMTg5CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpRdGczTjVMOUppQUxFQytuYkd3RVF2WlVpa2RDeXJmRytkUTVRazJRZjhJQ2FLdFpNVHd3bW9yZ1R2MWVRc3dpU2IxaHZ6cm1LUGxzMlNmcVZlR3FCQT09Cg==",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.0/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGljVEx5bzBPM2R6MWRldmFqM2hhcG13c2hLQVJSNllmSWwxaTh4VkhSWWJERTFMYTNsQm5waDdTenlQYTBwcDlMNnR6SVRlWTNpYkkyYmpSOVQ3NFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTM0NTE4CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpwb0cwUGZPMkw1M0lDVFVnUCsxS1hkTERBNmxTa0U5U0x0cGEzalhUbkRiZ1JwVWQxcENwdjdNNVQrenhmRUdmaW5yTCt2b3o4TVVQbXl6Z01xSGREdz09Cg==",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.1/Inkpoint.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHBsWUltNWFCWHNjSHhtMFM0T0NFSXE5cjgvUEJMM2RiQmZJdDhhenB6RlljWHczNFBubWh5ZlRuUWk1NG0xcktoQThhYkFFbGRYckc5c1gxYTFOQXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMTg5CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpRdGczTjVMOUppQUxFQytuYkd3RVF2WlVpa2RDeXJmRytkUTVRazJRZjhJQ2FLdFpNVHd3bW9yZ1R2MWVRc3dpU2IxaHZ6cm1LUGxzMlNmcVZlR3FCQT09Cg==",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.0/Inkpoint.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGljVEx5bzBPM2R6MWRldmFqM2hhcG13c2hLQVJSNllmSWwxaTh4VkhSWWJERTFMYTNsQm5waDdTenlQYTBwcDlMNnR6SVRlWTNpYkkyYmpSOVQ3NFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTM0NTE4CWZpbGU6SW5rcG9pbnQuYXBwLnRhci5negpwb0cwUGZPMkw1M0lDVFVnUCsxS1hkTERBNmxTa0U5U0x0cGEzalhUbkRiZ1JwVWQxcENwdjdNNVQrenhmRUdmaW5yTCt2b3o4TVVQbXl6Z01xSGREdz09Cg==",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.1/Inkpoint.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGlZMkVGcXJvQVR6NWhLR044ZE9obzhKY2VnMHFBOThRRkl1YUx2emcyblBueU1Xa0RDS0t0VW1kZ3BFRW5LK09VQTJPMEw1TENEMkhUVG1WZXhveWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMDIzCWZpbGU6SW5rcG9pbnRfMC4yMy4wX3g2NC1zZXR1cC5leGUKRWt3UEI1L0c4SEVFWVNCTU52RUQwRE43VW5yM3V1YUViTUxKbXBwVFNNcUVtOW1sUU1XSHM2c21OWGNSSlNuS042VkRndVVvMUE1RXp1bkpYME1qQkE9PQo=",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.0/Inkpoint_0.23.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHYxcDlWQTVIaHF3QUlXTTdFQ3RtRk5ZMEsxNTVjbEhSNktwUy9mWXUrTXZ4SjhnVlVBN090aTlva2VGZG12bHkzVW9pdkJnOXZzYlN0RlVHZVFhTWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMzMjYwCWZpbGU6SW5rcG9pbnRfMC4yMy4xX3g2NC1zZXR1cC5leGUKK2g0Vnh5VzU2dHJYVm9obE9aN09IZXlScURvKzh6bk9YQU1xd0hneWFyV2xGRHdjM3R5ZjFiVUcxcWQ0RnBvVTRxL0Y5STlGbVBydEhmMnNxR1o2REE9PQo=",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.1/Inkpoint_0.23.1_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGlZMkVGcXJvQVR6NWhLR044ZE9obzhKY2VnMHFBOThRRkl1YUx2emcyblBueU1Xa0RDS0t0VW1kZ3BFRW5LK09VQTJPMEw1TENEMkhUVG1WZXhveWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMDIzCWZpbGU6SW5rcG9pbnRfMC4yMy4wX3g2NC1zZXR1cC5leGUKRWt3UEI1L0c4SEVFWVNCTU52RUQwRE43VW5yM3V1YUViTUxKbXBwVFNNcUVtOW1sUU1XSHM2c21OWGNSSlNuS042VkRndVVvMUE1RXp1bkpYME1qQkE9PQo=",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.0/Inkpoint_0.23.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHYxcDlWQTVIaHF3QUlXTTdFQ3RtRk5ZMEsxNTVjbEhSNktwUy9mWXUrTXZ4SjhnVlVBN090aTlva2VGZG12bHkzVW9pdkJnOXZzYlN0RlVHZVFhTWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMzMjYwCWZpbGU6SW5rcG9pbnRfMC4yMy4xX3g2NC1zZXR1cC5leGUKK2g0Vnh5VzU2dHJYVm9obE9aN09IZXlScURvKzh6bk9YQU1xd0hneWFyV2xGRHdjM3R5ZjFiVUcxcWQ0RnBvVTRxL0Y5STlGbVBydEhmMnNxR1o2REE9PQo=",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.1/Inkpoint_0.23.1_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdG1aYmExQ3VtUlRnSnJLRjYzSzlPSnNTNkk0eEM3aE5PTzlGbkdCcXcvUzhVWW91SDNISTl5emQzOEVVcEF5Z0FwVUphZVVzVDhMMThjeEhuek1vQVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMTAxCWZpbGU6SW5rcG9pbnRfMC4yMy4wX2FtZDY0LkFwcEltYWdlCkV4Z0xYNE9MeHhpcWhUNkFHOUJQanV6RFdrbmZNd1Jsd0RDWHRwNWlBTURpK0xzWjVRcGg1SmZHVFAzaEJMRTZzSVA3bit0SE1vWERzcmErQzZZNkNRPT0K",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.0/Inkpoint_0.23.0_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGlkQWw4a3FmMGRRRE5sazF4SnhFTkVrMDVTbW9VSkRKUUY0dFZpN2NHTlpOZEZmUGM5NE9FU2tsbFFBY3NQcXFab2ZBdURaT3Q3M0JOV0VrclpVUlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMzMzAyCWZpbGU6SW5rcG9pbnRfMC4yMy4xX2FtZDY0LkFwcEltYWdlClU0d282dmprN2w0Tnh6VkNoQW1XMmJoUENWMjJOY0FWeEN6MWdpVE4zUnp1N04wemlENWsxM2xpYTdxNWk4ZERTQUtFSytXVmhWUkpHWGQrSHZudUF3PT0K",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.1/Inkpoint_0.23.1_amd64.AppImage"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdG1aYmExQ3VtUlRnSnJLRjYzSzlPSnNTNkk0eEM3aE5PTzlGbkdCcXcvUzhVWW91SDNISTl5emQzOEVVcEF5Z0FwVUphZVVzVDhMMThjeEhuek1vQVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMTAxCWZpbGU6SW5rcG9pbnRfMC4yMy4wX2FtZDY0LkFwcEltYWdlCkV4Z0xYNE9MeHhpcWhUNkFHOUJQanV6RFdrbmZNd1Jsd0RDWHRwNWlBTURpK0xzWjVRcGg1SmZHVFAzaEJMRTZzSVA3bit0SE1vWERzcmErQzZZNkNRPT0K",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.0/Inkpoint_0.23.0_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGlkQWw4a3FmMGRRRE5sazF4SnhFTkVrMDVTbW9VSkRKUUY0dFZpN2NHTlpOZEZmUGM5NE9FU2tsbFFBY3NQcXFab2ZBdURaT3Q3M0JOV0VrclpVUlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMzMzAyCWZpbGU6SW5rcG9pbnRfMC4yMy4xX2FtZDY0LkFwcEltYWdlClU0d282dmprN2w0Tnh6VkNoQW1XMmJoUENWMjJOY0FWeEN6MWdpVE4zUnp1N04wemlENWsxM2xpYTdxNWk4ZERTQUtFSytXVmhWUkpHWGQrSHZudUF3PT0K",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.1/Inkpoint_0.23.1_amd64.AppImage"
     },
     "linux-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHM3aU8xckpiMUNhOFBDd3dHdkxnK2JqU1BDK0puK0p5aVFPWHRscGg3NDFsY1dBZGpIbXQ5UWRjK1I3NW9JOXhyZFBKZlBESTd1Zmo2YnlIc3JBYndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMDMwCWZpbGU6SW5rcG9pbnRfMC4yMy4wX2FhcmNoNjQuQXBwSW1hZ2UKb3BFa09sOFhhSHNMTGF2N2tZbDI3YWxDdnlyL0JCV2J6Um43THRad3RnMS9ENWdSbXN0Z3BhdUE2R09LKytybnRzaVZORkxGR29TVGk0ZTFYbGE4RGc9PQo=",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.0/Inkpoint_0.23.0_aarch64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHN1bE9lQW1YQW5QMWRlU2VCSmpxcUJsNmN5a2tuYkRkVUZGekVReWhkQ2VYMS9mTjRWY290NzVyZjUyQ3pQaE1JMDRyNHdrSWppdGpvU2c5WDdObHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMzMjE0CWZpbGU6SW5rcG9pbnRfMC4yMy4xX2FhcmNoNjQuQXBwSW1hZ2UKdVVrdXJ2UWJzRVc4TlBmc2ppWXRFVTRxTDRTK01zK2EzVDVCcHpvSWtCQmFvZG5YNGF0SERrNm84QWw4SVozWkZuNGtRU1lBT1VrcDR2bjUwdnpkQUE9PQo=",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.1/Inkpoint_0.23.1_aarch64.AppImage"
     },
     "linux-aarch64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHM3aU8xckpiMUNhOFBDd3dHdkxnK2JqU1BDK0puK0p5aVFPWHRscGg3NDFsY1dBZGpIbXQ5UWRjK1I3NW9JOXhyZFBKZlBESTd1Zmo2YnlIc3JBYndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMDMwCWZpbGU6SW5rcG9pbnRfMC4yMy4wX2FhcmNoNjQuQXBwSW1hZ2UKb3BFa09sOFhhSHNMTGF2N2tZbDI3YWxDdnlyL0JCV2J6Um43THRad3RnMS9ENWdSbXN0Z3BhdUE2R09LKytybnRzaVZORkxGR29TVGk0ZTFYbGE4RGc9PQo=",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.0/Inkpoint_0.23.0_aarch64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHN1bE9lQW1YQW5QMWRlU2VCSmpxcUJsNmN5a2tuYkRkVUZGekVReWhkQ2VYMS9mTjRWY290NzVyZjUyQ3pQaE1JMDRyNHdrSWppdGpvU2c5WDdObHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMzMjE0CWZpbGU6SW5rcG9pbnRfMC4yMy4xX2FhcmNoNjQuQXBwSW1hZ2UKdVVrdXJ2UWJzRVc4TlBmc2ppWXRFVTRxTDRTK01zK2EzVDVCcHpvSWtCQmFvZG5YNGF0SERrNm84QWw4SVozWkZuNGtRU1lBT1VrcDR2bjUwdnpkQUE9PQo=",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.1/Inkpoint_0.23.1_aarch64.AppImage"
     },
     "linux-x86_64-deb": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdGlUNmJnbEttM3dwOGh0TlhMeFpadVY3dTNuc0NkejNyUUFLb1hQbFBqMENmMXRlekdRTHBvbjVTb2ZNSFNDT2VVTnJKcmk2M2xyWXNmdStQZEJYZGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMTAxCWZpbGU6SW5rcG9pbnRfMC4yMy4wX2FtZDY0LmRlYgpQSGJsQ0lnaDF3MVJEbndtVHJET0FGSlFJb0c2dWk2YTNGK0lrbTBHODdsK2hiVHhxY3VqR0NYTWZJc2YrcnpHRjQ1VVY2Z0doaFArVG9sOUZsK2VCUT09Cg==",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.0/Inkpoint_0.23.0_amd64.deb"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHVraGVkMGRIUG0rZ3VLVHJMaDBmQmhvS0FjcnZmMGt4ZUZTUnBnTFhrYUhncXgrRnhaYkxTN0wyN2ZJNDduN1BRME1qNEZNU0lqOFIwSEwzY1hxc2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMzMzAyCWZpbGU6SW5rcG9pbnRfMC4yMy4xX2FtZDY0LmRlYgorRk1qbldUNVFZZXorVFN1Ui9HaW9JU2hZbG5tNHljd2hSYWVYQkprTm5OLzVjZ2dJaDNNcFFOSTlZY09OejIzSk1tbXFQUlpjUGUvOFlxTzFqdkdBUT09Cg==",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.1/Inkpoint_0.23.1_amd64.deb"
     },
     "linux-aarch64-deb": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHR1eVNlTmRxcGhMd2w3UFJHUnVlSmFKdDBmZjhnWW8ra1lpTTBBUjhKN0p2ZVNiM3JNSERDNEsvejIyK2dsSldFYUN1UXdRMzdUMlE4T1ZxaW5sNEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgwMDMwCWZpbGU6SW5rcG9pbnRfMC4yMy4wX2FybTY0LmRlYgpuTitQaWdrVklwZGtWUzlnYitacWpKeGdDUWw2R0Q5R3owUzlpdWl6U2ZJNTJqaVYybUtFd0N2Y1Z1cnBzYWI4YkZDM0lJK0prS3BaU2NIWk9pdzJCUT09Cg==",
-      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.0/Inkpoint_0.23.0_arm64.deb"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVROGtjUXRMaTZzdHEvRGJkLzV5TzhMT2FDZC9PVXVaeHlNTVNRcW5xajd6eDNjdHJwREFOcnhETkVCdzV1U2dEZmhteHRFMlZYWkZvM0tqcTM4N3FQeWtQWW1VTktHcndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMzMjE0CWZpbGU6SW5rcG9pbnRfMC4yMy4xX2FybTY0LmRlYgpqMnZVYUczSGpxbnFvL09nLytmQiswRzgrRmY1NW54Yk1GWVNkR0xXYjJGeHVPWlFhc204M3pWUmQ2c0UyeWEzWGxyQVJQUU1zRitJMUtTNHlSQlVEZz09Cg==",
+      "url": "https://github.com/wmasfoe/homebrew-tap/releases/download/md-editor-v0.23.1/Inkpoint_0.23.1_arm64.deb"
     }
   }
 }
